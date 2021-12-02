@@ -11,8 +11,8 @@ int main(void) {
 	t.tm_min = 0;
 	t.tm_hour = 0;
 	t.tm_mday   = 16;
-	t.tm_mon    = 10-1;
-    	t.tm_year   = 2002-1900;
+	t.tm_mon    = 9;
+    	t.tm_year   = 102;
    	time_t birth = mktime(&t);
     	char buf[10];
 	int Flag,counter,len,i;
