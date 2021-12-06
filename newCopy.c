@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void newCopy(char *str1, char *str2) {
 	char c;
