@@ -10,9 +10,9 @@ int main(void) {
 	t.tm_sec = 0;
 	t.tm_min = 0;
 	t.tm_hour = 0;
-	t.tm_mday   = 16;
-	t.tm_mon    = 9;
-    	t.tm_year   = 102;
+	t.tm_mday   = 1;
+	t.tm_mon    = 0;
+    	t.tm_year   = 2000-1900;
    	time_t birth = mktime(&t);
     	char buf[10];
 	int Flag,counter,len,i;
