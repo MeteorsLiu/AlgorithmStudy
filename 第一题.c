@@ -2,7 +2,7 @@
 
 
 unsigned long ConvertToInt(char *str) {
-	unsigned long num;
+	unsigned long num = 0;
 	char c;
 	while (c = *str++) {
 		if (c >= '0' || c <= '9') {
